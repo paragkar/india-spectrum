@@ -13,7 +13,7 @@ def main():
     selection = st.sidebar.radio("Go to", list(PAGES.keys()))
 
     page = PAGES[selection]
-    # page.write()
+    page.write()
 
 if __name__ == "__main__":
     main()
